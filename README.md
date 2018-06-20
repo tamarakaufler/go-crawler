@@ -48,3 +48,4 @@ CRAWLER_URL=https://docs.docker.com CRAWLER_DEPTH=2 make run
 - Provide a flag for setting the retrieved number of links on a page
 - Provide a help flag showing basic command info and its usage
 - Improve the sitemap display
+- Limit the number of concurrently run goroutines
